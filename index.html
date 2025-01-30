@@ -18,9 +18,9 @@
       rel="stylesheet"
     />
   </head>
-  <h1 class="container">Adopt An Animal From Us</h1>
+  <h1 class="container">AACorp</h1>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Adoption Information</a>
         <button
@@ -59,6 +59,7 @@
         </div>
       </div>
     </nav>
+    <h2>Adopt an Animal from us today!</h2>
     <p>
       These furry companions, whether they are dogs, cats, or even horses, have
       unique personalities and untold stories. Some may have been abandoned,
@@ -78,32 +79,38 @@
       cherished. By choosing adoption, you're not just bringing a pet into your
       life—you're giving them the opportunity to live the life they deserve.
     </p>
-    <h2>Available Animals</h2>
-    <ul>
-      <li>Horses</li>
-      <li>Cats</li>
-      <li>Dogs</li>
-    </ul>
-    <h2 class="container">Horses</h2>
+    <h2 class="container">Available Animals</h2>
 
-    <img
-      id="horses"
-      src="https://media.istockphoto.com/id/1741525902/photo/wild-horses.webp?a=1&b=1&s=612x612&w=0&k=20&c=2i-9c7Pt-7oDjP_0FhdYzXqtWWBUKpffkSREdcfpQLQ="
-      alt="horses"
-    />
+    <h2 class="container">Horses</h2>
+    <div style="display: flex; justify-content: center">
+      <img
+        id="horses"
+        src="https://media.istockphoto.com/id/1741525902/photo/wild-horses.webp?a=1&b=1&s=612x612&w=0&k=20&c=2i-9c7Pt-7oDjP_0FhdYzXqtWWBUKpffkSREdcfpQLQ="
+        alt="horses"
+        width="800"
+        height="600"
+      />
+    </div>
+
     <h2 class="container">Cats</h2>
-    <img
-      id="cats"
-      src="https://media.istockphoto.com/id/1426475748/photo/kittens-and-mother-cat-in-a-shelter.jpg?s=1024x1024&w=is&k=20&c=pkzdOPdMVQzVckPzSTH7dHqZ-SilPKnhisv1lq_Pna8="
-      alt="cats"
-      width="800"
-      height="600"
-    />
+    <div style="display: flex; justify-content: center">
+      <img
+        id="cats"
+        src="https://images.unsplash.com/photo-1646183230241-3c09823f85c6?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="cats"
+        width="800"
+        height="600"
+      />
+    </div>
     <h2 id="dogs" class="container">Dogs</h2>
-    <img
-      src="https://plus.unsplash.com/premium_photo-1679519057192-a3867aa23c37?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZG9ncyUyMGluJTIwc2hlbHRlcnxlbnwwfHwwfHx8MA%3D%3D"
-      alt="dogs"
-    />
+    <div style="display: flex; justify-content: center">
+      <img
+        src="https://images.unsplash.com/photo-1542715234-4bafcfc68bd9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="dogs"
+        width="800"
+        height="600"
+      />
+    </div>
     <p>
       Once an animal enters your home, it becomes your responsibility to provide
       a safe, loving environment where they feel secure and valued. This
@@ -117,7 +124,7 @@
       care, you're giving your animal the chance to live a happy, healthy, and
       fulfilling life.
     </p>
-    <button>Ready to Adopt?</button>
+    <button id="ready-btn">Ready to Adopt?</button>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
